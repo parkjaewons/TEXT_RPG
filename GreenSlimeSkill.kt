@@ -1,0 +1,3 @@
+interface GreenSlimeSkill {
+    fun poison()
+}

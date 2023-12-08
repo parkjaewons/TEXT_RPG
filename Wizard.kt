@@ -1,4 +1,4 @@
-class Wizard {
+class Wizard : Character {
     var name:String = ""
     var age:Int = 0
     var gender:String = ""
@@ -16,7 +16,7 @@ class Wizard {
         mp = _mp
     }
 
-    fun attack() {
+    override fun attack() {
         println("에너지 볼!")
     }
 

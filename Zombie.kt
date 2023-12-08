@@ -1,4 +1,4 @@
-class Zombie {
+class Zombie : Monster {
     var name:String = ""
     var color:String = ""
     var height:Double = 0.0
@@ -14,7 +14,7 @@ class Zombie {
         damage = _damage
     }
 
-    fun attack() {
+    override fun attack() {
         println("물어뜯기 공격!")
     }
 
